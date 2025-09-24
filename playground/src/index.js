@@ -1,8 +1,19 @@
-import './index.css';
+import { createApp, h } from 'vue';
 
-document.querySelector('#root').innerHTML = `
-<div class="content">
-  <h1>Vanilla Rsbuild</h1>
-  <p>Start building amazing things with Rsbuild.</p>
-</div>
-`;
+const App = () => {
+  return h(
+    'div',
+    {
+      class: 'content',
+    },
+    [
+      h('h1', 'Vanilla Rsbuild'),
+      h('p', 'Start building amazing things with Rsbuild.'),
+    ],
+  );
+};
+
+const app = createApp(App());
+
+document.querySelector('#root').innerHTML = '<div id="app"></div>';
+app.mount('#app');
