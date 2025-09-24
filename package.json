@@ -1,6 +1,6 @@
 {
   "name": "rsbuild-plugin-cdn-import",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": "https://github.com/fuxichen/rsbuild-plugin-cdn-import",
   "description": "Import packages from CDN for the rsbuild plugin",
   "keywords": [
@@ -38,7 +38,7 @@
     "lint:write": "biome check . --write",
     "prepare": "simple-git-hooks && npm run build",
     "test": "playwright test",
-    "bump": "npx bumpp"
+    "bump": "pnpx bumpp"
   },
   "simple-git-hooks": {
     "pre-commit": "npm run lint:write"
