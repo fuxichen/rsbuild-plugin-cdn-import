@@ -1,7 +1,21 @@
 {
-  "name": "rsbuild-plugin-example",
+  "name": "rsbuild-plugin-cdn-import",
   "version": "0.0.0",
-  "repository": "https://github.com/rspack-contrib/rsbuild-plugin-template",
+  "repository": "https://github.com/fuxichen/rsbuild-plugin-cdn-import",
+  "description": "Import packages from CDN for the rsbuild plugin",
+  "keywords": [
+    "rsbuild-plugin",
+    "rsbuild",
+    "rspack",
+    "rebuild cdn plugin",
+    "rebuild CDN extension"
+  ],
+  "author": "fuxichen",
+  "email": "632951357@qq.com",
+  "bugs": {
+    "url": "https://github.com/fuxichen/rsbuild-plugin-cdn-import/issues"
+  },
+  "homepage": "https://github.com/fuxichen/rsbuild-plugin-cdn-import#readme",
   "license": "MIT",
   "type": "module",
   "exports": {
