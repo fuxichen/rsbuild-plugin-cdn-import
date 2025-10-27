@@ -4,7 +4,7 @@ Allows you to specify modules to be introduced in a production environment using
 
 This can reduce build time and improve page load speed in production environments.
 
-Fork by [vite-svg-loader](https://github.com/MMF-FE/vite-plugin-cdn-import)
+Fork by [vite-plugin-cdn-import](https://github.com/MMF-FE/vite-plugin-cdn-import)
 
 <p>
   <a href="https://npmjs.com/package/rsbuild-plugin-cdn-import">
